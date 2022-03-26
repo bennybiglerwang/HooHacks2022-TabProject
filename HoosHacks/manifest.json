@@ -1,0 +1,22 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background/background.js" ]
+   },
+   "browser_action": {
+      "default_popup": "popup/popup.html"
+   },
+   "description": "A Chromium Extension that allows you to set a timer that counts down and then closes the tab.",
+   "icons": {
+      "128": "icons/hourglass128.png",
+      "16": "icons/hourglass16.png",
+      "32": "icons/hourglass32.png",
+      "48": "icons/hourglass48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgSx19NMf8iNf8NJjyzYV0lebpTJfAKlPNP95bK1oSZUhCg2B7AcaikfEtkvti4O/6kyQITTRfeNU0+wYgYm/pSThb9sVzEyWwyc5s/4Rt9MXNlgyNjExiBMuNl0I+es5/tVG2Cnn1aUonzd4iz0PLkLsmHOi6Mj8bjIx2dDPIGJ7bnWJdn4HrUut0ofrtHg3VKY+f8ZNAlKrQXvHveAPojTwNUM1AcxLmDkUR2DMJd+qBRCEGYbMu8b5ZeyuBcKNwm2MaTVZQZgPBcxpIWVewGRQTVOhzgHV+TlZ9k0aWjVp+fPLmVbnkSe5QRSE1Dhq/LgYg5PypghVMIzI19ag5wIDAQAB",
+   "manifest_version": 2,
+   "name": "Tab Countdown Timer",
+   "permissions": [ "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0"
+}
